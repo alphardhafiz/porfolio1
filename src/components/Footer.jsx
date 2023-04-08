@@ -9,6 +9,7 @@ import {
   FaPhone,
   FaWhatsapp,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -36,7 +37,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              buci@gmail.com
+              bucialphard@gmail.com
             </h4>
           </div>
         </div>
@@ -48,18 +49,27 @@ const Footer = () => {
             development.{" "}
           </p>
           <div className="social">
-            <FaWhatsapp
-              size={30}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaInstagram
-              size={30}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+            <Link to="https://wa.me/6287768728483" target="_blank">
+              <FaWhatsapp
+                size={30}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/alphardhafiz/"
+              target="_blank"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </Link>
+            <Link to="https://instagram.com/alphardhafiz" target="_blank">
+              <FaInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </Link>
           </div>
         </div>
       </div>
