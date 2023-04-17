@@ -12,9 +12,9 @@ const ProjectCardData = [
   {
     img: portoImg2,
     title: "TODO APP",
-    text: "",
+    text: "Todo app is an app that lets you keep track of the various activities you want to do. using ReactJS, MySQL, Express and Node JS",
     urlProject:
-      "https://drive.google.com/file/d/1vn2ITrgTEV0D6ALXYOECXnzkhGjPfVrD/view?usp=share_link",
+      "https://www.canva.com/design/DAFgVsb9ZrE/w0515Iici_RVCeVVkQBmuw/edit?utm_content=DAFgVsb9ZrE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
 ];
 
