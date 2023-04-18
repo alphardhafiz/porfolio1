@@ -1,5 +1,5 @@
 .project-container {
-  width: 50%;
+  width: 30%;
   max-width: 1140px;
   margin: 0 auto 2rem auto;
   display: flex;
@@ -10,6 +10,7 @@
 
 .project-card {
   background-color: #1a1919;
+  /* width: 50%; */
   padding: 1.2rem 1rem;
 }
 
@@ -41,6 +42,6 @@
 @media screen and (max-width: 800px) {
   .project-container {
     max-width: 90%;
-    width: 100%;
+    width: 80%;
   }
 }

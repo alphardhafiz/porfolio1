@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         <div className="right">
-          <h4>About the company</h4>
+          <h4>About Me</h4>
           <p>
             This is me Moh Alphard Hafiz Buci. i enjoy doing fullstack web
             development.{" "}

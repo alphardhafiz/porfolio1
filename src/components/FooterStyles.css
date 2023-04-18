@@ -41,7 +41,12 @@
   margin-top: 1rem;
 }
 
+.social a svg {
+  transition: 0.5s;
+}
+
 .social a svg:hover {
+  transform: scale(1.2);
   cursor: pointer;
 }
 
