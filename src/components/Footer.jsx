@@ -45,8 +45,8 @@ const Footer = () => {
         <div className="right">
           <h4>About Me</h4>
           <p>
-            This is me Moh Alphard Hafiz Buci. i enjoy doing fullstack web
-            development.{" "}
+            This is me Moh Alphard Hafiz Buci. I enjoy doing fullstack web
+            development
           </p>
           <div className="social">
             <Link to="https://wa.me/6287768728483" target="_blank">

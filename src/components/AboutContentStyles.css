@@ -48,3 +48,18 @@
   grid-row: 1;
   z-index: 5;
 }
+
+/* .about .left p {
+  white-space: pre-wrap;
+} */
+
+@media screen and (max-width: 1000px) {
+  .about .left {
+    max-width: 90%;
+    /* text-align: justify; */
+  }
+
+  .about .left p {
+    text-align: justify;
+  }
+}
