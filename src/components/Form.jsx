@@ -12,14 +12,13 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_hhxzgn2",
-        "template_33js8fk",
+        "service_4c77fa2",
+        "template_creqij8",
         form.current,
         "rgcvKj7Zdrp8uDAuE"
       )
       .then(
         (result) => {
-          console.log(result.text);
           Swal.fire({
             position: "top-end",
             icon: "success",
