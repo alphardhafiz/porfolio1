@@ -5,9 +5,9 @@ const ProjectCardData = [
   {
     img: portoImg,
     title: "Fivenoodle - Landing Page",
-    text: "Fivenoodle is a website landing page that offers a food product with the theme of healthy noodles made from high quality organic ingredients and using admin pannel for handle CRUD at menu page and blog page",
+    text: "Fivenoodle is a website landing page that offers a food product with the theme of healthy noodles made from high quality organic ingredients and using admin pannel for handle data at menu page and blog page",
     urlProject:
-      "https://drive.google.com/file/d/1vn2ITrgTEV0D6ALXYOECXnzkhGjPfVrD/view?usp=share_link",
+      "https://www.canva.com/design/DAFewMSOGpA/OLZF5BHOm3jxzJN11wZI6Q/view?utm_content=DAFewMSOGpA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
   },
   {
     img: portoImg2,
