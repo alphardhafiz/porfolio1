@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>Medan, Indonesia.</p>
+              <p>Jakarta, Indonesia.</p>
             </div>
           </div>
           <div className="phone">
