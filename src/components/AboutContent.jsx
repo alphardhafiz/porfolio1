@@ -11,40 +11,25 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who Am I?</h1>
         <p>
-          My name is Moh Alphard Hafiz Buci, a graduate of Bachelor's degree in
-          Mechanical Engineering from the University of Riau. I am passionate
-          about pursuing a career in the field of Front End Development. I
-          possess a strong background in Front End development, along with a
-          deep interest in creating captivating and responsive user interfaces.
+          I am <b>Moh Alphard Hafiz Buci</b>, a Bachelor of Mechanical Engineering from
+          Riau University. My passion has led me to pursue a career in <b>Front-End
+          Web Development</b>, where I have successfully developed multiple
+          projects. Currently, I am a <b>Software Engineer at PT. Halotec
+          Indonesia</b>, focusing on creating accessible websites using <b>JavaScript,
+          HTML, CSS, and React.js</b>. I consistently stay up-to-date with industry
+          advancements and am committed to enhancing my skills through
+          self-learning and online courses.
         </p>
         <p>
-          During my participation in a bootcamp, I have honed my skills in
-          working on various projects related to the needs of a Front End
-          Developer. I have successfully completed projects, which have enriched
-          my experience and technical skills. I am proficient in working with
-          various technologies and tools commonly used in the industry, such as
-          HTML, CSS, JavaScript, and popular frameworks like ReactJS.
+          In addition to my full-time work, I have completed several boot camps
+          and training programs, including the <b>Juara Coding Bootcamp</b> and
+          <b>Harisenin.com Bootcamp</b>, which have strengthened my expertise in <b>MERN
+          Stack, SQL</b>, and various front-end technologies.
         </p>
         <p>
-          Currently, I am dedicated to deepening my knowledge and skills as a
-          Front End Developer. I keep up-to-date with the latest advancements in
-          the industry and strive to enhance my abilities through self-learning
-          and online resources. I believe that having a strong foundation in
-          Front End Development will enable me to become a competent and
-          effective professional in creating exceptional user experiences.
-        </p>
-        <p>
-          I possess strong analytical and problem-solving skills, as well as a
-          collaborative team spirit. I enjoy working with teams to achieve
-          shared goals and contribute positively in a dynamic work environment.
-          I also have excellent communication skills and adapt quickly to
-          technological changes and project requirements.
-        </p>
-        <p>
-          I am highly enthusiastic and ready to challenge myself in the world of
-          Front End Development. I hope to leverage my knowledge and skills to
-          contribute to an innovative team and help create outstanding user
-          experiences.
+          With a detail-oriented mindset, I am eager for further opportunities
+          to grow as a <b>Front-End Developer</b> and contribute to innovative web
+          solutions.
         </p>
         <Link to={"/contact"}>
           <button className="btn">Contact</button>
