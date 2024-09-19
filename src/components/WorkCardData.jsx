@@ -20,7 +20,7 @@ const ProjectCardData = [
   {
     img: portoImg3,
     title: "Staycation - Booking Web",
-    text: "Staycation is a web page that provides hotel booking services with various facilities",
+    text: "Staycation is a web page that provides hotel booking services with various facilities, developed with reactjs for frontend, expressjs for backend and mongodb for database",
     urlProject: null
   },
 ];
