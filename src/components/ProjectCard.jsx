@@ -11,9 +11,11 @@ const ProjectCard = ({ img, title, text, urlProject }) => {
         <div className="pro-details">
           <p>{text}</p>
           <div className="pro-btns">
-            <NavLink to={urlProject} target="_blank" className="btn">
-              View
-            </NavLink>
+            {urlProject && (
+              <NavLink to={urlProject} target="_blank" className="btn">
+                View
+              </NavLink>
+            )}
             {/* <NavLink to={"url.com"} className="btn">
               Source
             </NavLink> */}
