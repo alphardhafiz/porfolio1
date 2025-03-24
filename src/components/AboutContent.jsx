@@ -11,26 +11,27 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who Am I?</h1>
         <p>
-          I am <b>Moh Alphard Hafiz Buci</b>, a Bachelor of Mechanical Engineering from
-          Riau University. My passion has led me to pursue a career in <b>Front-End
-          Web Development</b>, where I have successfully developed multiple
-          projects. Currently, I am a <b>Software Engineer at PT. Halotec
-          Indonesia</b>, focusing on creating accessible websites using <b>JavaScript,
-          HTML, CSS, and React.js</b>. I consistently stay up-to-date with industry
-          advancements and am committed to enhancing my skills through
-          self-learning and online courses.
+          Hi, I’m <b>Moh Alphard Hafiz Buci</b>, a passionate Front-End Developer with strong
+          hands-on experience in building modern, responsive, and user-friendly
+          web applications using <b>ReactJS, JavaScript, HTML, and CSS</b>.
         </p>
         <p>
-          In addition to my full-time work, I have completed several boot camps
-          and training programs, including the <b>Juara Coding Bootcamp</b> and
-          <b>Harisenin.com Bootcamp</b>, which have strengthened my expertise in <b>MERN
-          Stack, SQL</b>, and various front-end technologies.
+          With a background in Mechanical Engineering and a deep curiosity in
+          tech, I’ve transitioned into web development through intensive
+          bootcamps and real-world projects. I’ve contributed to several
+          full-stack applications—ranging from service tracking systems to
+          school management platforms—while continuously learning and adapting
+          to new tools and frameworks like{" "}
+          <b>NextJS, Express, Node.js, and MongoDB</b>.
         </p>
         <p>
-          With a detail-oriented mindset, I am eager for further opportunities
-          to grow as a <b>Front-End Developer</b> and contribute to innovative web
-          solutions.
+          I thrive in collaborative environments, love solving front-end
+          challenges, and always aim to build clean, accessible, and
+          high-performing user interfaces. Currently, I’m working as a Software
+          Engineer at <b>Halotec Indonesia</b>, where I develop websites that
+          align with accessibility standards and modern best practices.
         </p>
+        <p>Let’s build something awesome together.</p>
         <Link to={"/contact"}>
           <button className="btn">Contact</button>
         </Link>
