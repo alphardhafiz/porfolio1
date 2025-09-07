@@ -1,6 +1,6 @@
 import portoImg from "../assets/projectImg1.webp";
 import portoImg2 from "../assets/projectImg2.webp";
-import portoImg3 from "../assets/projectImg3.jpg";
+import portoImg3 from "../assets/projectImg3.webp";
 
 const ProjectCardData = [
   {
@@ -10,13 +10,14 @@ const ProjectCardData = [
     urlProject:
       "https://www.canva.com/design/DAFewMSOGpA/OLZF5BHOm3jxzJN11wZI6Q/view?utm_content=DAFewMSOGpA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
   },
-  // {
-  //   img: portoImg2,
-  //   title: "TODO APP",
-  //   text: "Todo app is an app that lets you keep track of the various activities you want to do. using ReactJS, MySQL, Express and Node JS",
-  //   urlProject:
-  //     "https://www.canva.com/design/DAFgVsb9ZrE/w0515Iici_RVCeVVkQBmuw/edit?utm_content=DAFgVsb9ZrE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-  // },
+  {
+    img: portoImg2,
+    title: "E-Commerce",
+    text: "An end-to-end e-commerce platform with an admin dashboard and customer-facing pages.",
+    urlProject:
+      "https://www.canva.com/design/DAGyScirVAk/QdBqsbooedJ8L3iVD9OlAw/view?utm_content=DAGyScirVAk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4d067457b0",
+    urlPreview: "https://ecommerce-nextjs1-isrm.vercel.app/"
+  },
   {
     img: portoImg3,
     title: "Staycation - Booking Web",

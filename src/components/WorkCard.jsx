@@ -17,6 +17,7 @@ const WorkCard = () => {
             title={d.title}
             text={d.text}
             urlProject={d.urlProject}
+            urlPreview={d.urlPreview}
           />
         ))}
       </div>

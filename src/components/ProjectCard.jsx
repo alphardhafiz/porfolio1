@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./ProjectCardStyles.css";
 
-const ProjectCard = ({ img, title, text, urlProject }) => {
+const ProjectCard = ({ img, title, text, urlProject, urlPreview }) => {
   return (
     <div className="project-container">
       <div className="project-card">
@@ -19,6 +19,11 @@ const ProjectCard = ({ img, title, text, urlProject }) => {
             {/* <NavLink to={"url.com"} className="btn">
               Source
             </NavLink> */}
+            {urlPreview && (
+              <NavLink to={urlPreview} target="_blank" className="btn">
+                Preview
+              </NavLink>
+            )}
           </div>
         </div>
       </div>
