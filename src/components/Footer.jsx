@@ -64,7 +64,7 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </Link>
-            <Link to="https://instagram.com/alphardhafiz" target="_blank">
+            <Link to="https://instagram.com/alphardbuci" target="_blank">
               <FaInstagram
                 size={30}
                 style={{ color: "#fff", marginRight: "2rem" }}
